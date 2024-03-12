@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:background="@drawable/bg_round"
+    android:id="@+id/no_internet_layout">
+
+    <ImageView
+        android:layout_width="395dp"
+        android:layout_height="529dp"
+        android:src="@drawable/nointernet"
+        android:contentDescription="@string/no_internet_img" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OOPS !"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="Poppins"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Internet Connection"
+        android:textAlignment="center"
+        android:fontFamily="Poppins"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_try_again"
+        android:text="Retry"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:background="@color/black"/>
+
+
+</LinearLayout>
